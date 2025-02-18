@@ -11,11 +11,10 @@ public class ImageRequestManager : Singleton<ImageRequestManager>
     public readonly string UPLOAD_ENDPOINT = "api/uploadimage"; // 업로드
     public readonly string DOWNLOAD_ENDPOINT = "api/getimage"; // 다운로드
 
-    protected override void OnDestroy()
+    private void OnDestroy()
     {
         uploadQueue.Clear();
         downloadQueue.Clear();
-        base.OnDestroy();
     }
 
     public void DownloadImage(string imgName, Action<Texture> onCompleteReceive)

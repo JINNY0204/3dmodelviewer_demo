@@ -48,7 +48,6 @@ public class Disassembler : MonoBehaviour
     }
     private void OnInitialized(object sender, LoadDataEventArgs e)
     {
-        Debug.Log("Disassembler에서 이벤트핸들러 실행");
         OnClick_Btn(Mode.Assemble);
         SetData(e.item.transform);
     }

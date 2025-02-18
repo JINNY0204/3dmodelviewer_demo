@@ -44,9 +44,6 @@ public class TreeviewController : MonoBehaviour
         var resultArray = Array.ConvertAll(arr, e => e.gameObject).Where(go => go.transform.parent == null).OrderBy(t => t.transform.GetSiblingIndex());
         dataItems = resultArray;
         TreeView.Items = dataItems;
-        //TreeView.Expand(panel.GetComponentInChildren<TreeViewItem>());//최상위 Item만 Expand
-
-        Debug.Log(target + "의 계층뷰 생성", target.gameObject);
     }
 
     public static void SelectBindingObject(GameObject target)

@@ -69,8 +69,6 @@ public class ModelModifier : Singleton<ModelModifier>
     }
     public void OnInitialized(object sender, LoadDataEventArgs e)
     {
-        Debug.Log("ModelModifier에서 이벤트핸들러 실행");
-
         useColliderToggle.interactable = true;
         AddModelComponent(e.item.transform);
         SetData(e.item.transform);
@@ -103,25 +101,24 @@ public class ModelModifier : Singleton<ModelModifier>
             if (ProcessManager.Instance.generateCollider)
                 ProcessManager.Instance.loadedModel.GetComponent<ColliderHandler>().AddOrEnableCollider(); //Mesh Collider 추가or활성화
             //AddModelComponent(ProcessManager.Instance.loadedModel);
-            ProcessManager.Instance.UserSystemMessage("물리엔진을 활성화합니다", 4f);
+            ProcessManager.Instance.UserSystemMessage("모델 핸들링 툴을 활성화합니다.", 4f);
         }
         else
         {
             ProcessManager.Instance.loadedModel.GetComponent<ColliderHandler>().DisableCollider(); //Mesh Collider 비활성화
-            ProcessManager.Instance.UserSystemMessage("물리엔진을 비활성화합니다.", 4f);
+            ProcessManager.Instance.UserSystemMessage("모델 핸들링 툴을 비활성화합니다.", 4f);
 
             highlighterToggle.isOn = toggle.isOn;
             coloringToggle.isOn = toggle.isOn;
             HideToggle.isOn = toggle.isOn;
             transparentAllToggle.isOn = toggle.isOn;
-            FindObjectOfType<AvatarCreater>().createToggle.interactable = toggle.isOn;
+            FindFirstObjectByType<AvatarCreater>().createToggle.interactable = toggle.isOn;
         }
-
         highlighterToggle.interactable = toggle.isOn;
         coloringToggle.interactable = toggle.isOn;
         HideToggle.interactable = toggle.isOn;
         transparentAllToggle.interactable = toggle.isOn;
-        FindObjectOfType<AvatarCreater>().createToggle.interactable = toggle.isOn;
+        FindFirstObjectByType<AvatarCreater>().createToggle.interactable = toggle.isOn;
 
 
     }
