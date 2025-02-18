@@ -101,8 +101,7 @@ MonoBehaviour:
     m_ProfileVersion: 1
   m_LabelTable:
     m_LabelNames:
-    - Model
-    - Portfolio
+    - 3D Model
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: 976207094b51e514387d94607f3e085e, type: 2}

@@ -16,7 +16,13 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: ac757255df244f04db32303f622e8f9f
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: 9ad4e6247fe062d47ab0c8727bd5a676
+    m_Address: Porsche Panamera
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - 3D Model
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 7a110112e9341da489c1c16fb8f24d54, type: 2}
   m_SchemaSet:
