@@ -25,4 +25,12 @@
     <type fullname="UnityEngine.Texture2D" preserve="all" />
     <type fullname="UnityEngine.Transform" preserve="all" />
   </assembly>
+  <assembly fullname="UnityEngine.TerrainModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Terrain" preserve="all" />
+    <type fullname="UnityEngine.TerrainData" preserve="all" />
+    <type fullname="UnityEngine.TerrainLayer" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.TerrainPhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.TerrainCollider" preserve="all" />
+  </assembly>
 </linker>

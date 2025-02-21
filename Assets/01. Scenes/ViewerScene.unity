@@ -2722,8 +2722,8 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 0.5
+  m_Color: {r: 1, g: 0.9708928, b: 0.8915094, a: 1}
+  m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -4260,7 +4260,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 241484219}
   m_HandleRect: {fileID: 261937819}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -9622,7 +9622,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   assetLabel:
-    m_LabelString: Portfolio
+    m_LabelString: 3D Model
 --- !u!1 &580629907
 GameObject:
   m_ObjectHideFlags: 0
@@ -41317,7 +41317,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5816621218980332786}
-  m_Mesh: {fileID: 4300000, guid: 0e96081d793e1994086123e2505bcc0e, type: 3}
+  m_Mesh: {fileID: 6541830277258997801, guid: a61839818a3811e48ba1c5b8c56356da, type: 3}
 --- !u!33 &5816621219303281385
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -41325,7 +41325,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5816621219303281389}
-  m_Mesh: {fileID: 4300010, guid: 0e96081d793e1994086123e2505bcc0e, type: 3}
+  m_Mesh: {fileID: 8743021440705076152, guid: a61839818a3811e48ba1c5b8c56356da, type: 3}
 --- !u!4 &5816621219303281388
 Transform:
   m_ObjectHideFlags: 0
@@ -41461,7 +41461,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minScale: 1
   maxScale: 10
-  fixedRate: 0.2
+  fixedRate: 0.4
 --- !u!1001 &8177070601737898446
 PrefabInstance:
   m_ObjectHideFlags: 0

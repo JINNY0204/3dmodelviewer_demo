@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: ModeData
+  m_EditorClassIdentifier: 
+  m_GroupName: ModeData
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 3ab15b7b0fd342d40a0b0f8ae8b28caf
+  m_SerializeEntries:
+  - m_GUID: 9ad4e6247fe062d47ab0c8727bd5a676
+    m_Address: Porsche Panamera
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - 3D Model
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aafe5e9d53d378e46bd74f95bd09b520
+    m_Address: PungyeongjeongPavilion
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - 3D Model
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b0b68f48bf7a1c641a59b72d72c40272
+    m_Address: Mountain Terrain
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - 3D Model
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bce31595d00dffb419afbfd02749ad4f
+    m_Address: GeungnakganStation
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - 3D Model
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c65bf2155cbdf1546bbdea22067d1c48
+    m_Address: City Building
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - 3D Model
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 7a110112e9341da489c1c16fb8f24d54, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 6f924f674b6ad834da4ebd4be35d5a87, type: 2}
+    - {fileID: 11400000, guid: 6ad107e5ab5dcf74b8d6b09515e003f8, type: 2}

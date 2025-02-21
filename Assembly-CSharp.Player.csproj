@@ -90,6 +90,7 @@
     <Compile Include="Assets\99.OtherAssets\Ice Pond\E2Chart\Scripts\Core\Builder\E2ChartDataInfoLowerLimit.cs" />
     <Compile Include="Assets\02. Scripts\HelpManager\HelpItem.cs" />
     <Compile Include="Assets\99.OtherAssets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualTouchZone.cs" />
+    <Compile Include="Assets\05. ModelData\Downloads\Hill Rock Mountain Terrain\Script\Camera\FlyCameraControl.cs" />
     <Compile Include="Assets\99.OtherAssets\Battlehub\UIControls\Scripts\PopupWindow.cs" />
     <Compile Include="Assets\99.OtherAssets\StarterAssets\InputSystem\StarterAssetsInputs.cs" />
     <Compile Include="Assets\02. Scripts\Utils\FlexibleScale.cs" />

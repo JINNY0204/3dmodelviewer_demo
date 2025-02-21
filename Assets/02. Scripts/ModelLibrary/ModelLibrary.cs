@@ -50,6 +50,7 @@ public class ModelLibrary : MonoBehaviour
                 ca.label.text += $" ({resultList.Count})";
 
             resultList.Sort();
+            Debug.Log(resultList.Count);
             for (int i = 0; i < resultList.Count; i++)
             {
                 ItemCell cell = AddItem(ca, resultList[i]);
